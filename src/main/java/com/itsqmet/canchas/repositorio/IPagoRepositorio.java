@@ -1,5 +1,9 @@
 package com.itsqmet.canchas.repositorio;
 
-public interface IPagoRepositorio {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.itsqmet.canchas.modelo.Pago;
+
+public interface IPagoRepositorio extends JpaRepository<Pago, Integer> {
 
 }

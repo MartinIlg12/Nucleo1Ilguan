@@ -1,5 +1,9 @@
 package com.itsqmet.canchas.repositorio;
 
-public interface IHorarioRepositorio {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.itsqmet.canchas.modelo.Horario;
+
+public interface IHorarioRepositorio extends JpaRepository<Horario, Integer>{
 
 }

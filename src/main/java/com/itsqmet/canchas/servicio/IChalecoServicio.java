@@ -1,5 +1,8 @@
 package com.itsqmet.canchas.servicio;
 
-public interface IChalecoServicio {
+import com.itsqmet.canchas.modelo.Chaleco;
 
+public interface IChalecoServicio {
+	
+	public void insertChaleco(Chaleco nuevoChaleco);
 }

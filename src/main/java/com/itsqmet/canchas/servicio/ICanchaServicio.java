@@ -1,5 +1,10 @@
 package com.itsqmet.canchas.servicio;
 
-public interface ICanchaServicio {
 
+
+import com.itsqmet.canchas.modelo.Cancha;
+
+public interface ICanchaServicio {
+	
+	public void insertCancha(Cancha nuevoCancha);
 }

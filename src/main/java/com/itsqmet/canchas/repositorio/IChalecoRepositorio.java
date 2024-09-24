@@ -1,9 +1,10 @@
 package com.itsqmet.canchas.repositorio;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-
 import com.itsqmet.canchas.modelo.Chaleco;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
-public interface IChalecoRepositorio extends JpaRepository<Chaleco, Integer> {
+@Repository
+public interface IChalecoRepositorio extends CrudRepository<Chaleco, Integer> {
 
 }

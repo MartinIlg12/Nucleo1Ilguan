@@ -32,7 +32,7 @@ public class ChalecoServicioImpl implements IChalecoServicio {
     @Override
     public Chaleco obtenerChalecoPorId(int id) {
         Optional<Chaleco> chaleco = chalecoRepositorio.findById(id);
-        return chaleco.orElse(null); // Retorna null si no existe
+        return chaleco.orElse(null); 
     }
 
     @Override
